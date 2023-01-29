@@ -5,6 +5,14 @@ layout = [[sg.Input(key = '-INPUT-')],[sg.Spin(values=["Km to Miles","kg to lbs"
 
 window = sg.Window('converter',layout)
 
+numToNep ={}
+
+def numToNepali(strings):
+    for num in strings:
+        pass
+
+
+
 while True:
     event, values = window.read()
     if event == sg.WIN_CLOSED:
